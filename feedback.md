@@ -52,7 +52,7 @@ Exercise 3 - Programming assignment
 - difficulty:
 - comment:
 
-Exercise Sheet 1 - Hidden Markov models
+Exercise Sheet 0 - Hidden Markov models
 ---------------------------------------
 - relevance:
 - interest:
