@@ -59,3 +59,17 @@ Exercise Sheet 0 - Hidden Markov models
 - understandability:
 - difficulty:
 - comment:
+
+Lecture Slides - Hidden Markov Models - Basics, Definitions and Scoring
+-----------------------------------------------------------------------
+interest:
+understandability:
+difficulty:
+comment:
+
+Lecture Recording - Hidden Markov Models - Basics, Definitions and Scoring
+--------------------------------------------------------------------------
+interest:
+understandability:
+difficulty:
+comment:
