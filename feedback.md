@@ -62,14 +62,14 @@ Exercise Sheet 0 - Hidden Markov models
 
 Lecture Slides - Hidden Markov Models - Basics, Definitions and Scoring
 -----------------------------------------------------------------------
-interest:
-understandability:
-difficulty:
-comment:
+- interest:
+- understandability:
+- difficulty:
+- comment:
 
 Lecture Recording - Hidden Markov Models - Basics, Definitions and Scoring
 --------------------------------------------------------------------------
-interest:
-understandability:
-difficulty:
-comment:
+- interest:
+- understandability:
+- difficulty:
+- comment:
