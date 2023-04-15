@@ -9,5 +9,5 @@ Lehrstuhl für Bioinformatik - Institut für Informatik - *http://www.bioinf.uni
 ---
     
 
-### _Exercise - Programming assignment: 
+### Exercise - Programming assignment: 
 These functions will allow you to check your knowledge of the basic data structions and operations in python.
