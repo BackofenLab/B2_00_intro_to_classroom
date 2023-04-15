@@ -1,7 +1,12 @@
 import pytest
 
 def pytest_addoption(parser):
-    parser.addoption("--custom-report", action="store_true", help="Use custom report format")
+    parser.addoption(
+        "--custom-report",
+        action="store_true",
+        default=True,
+        help="Use custom report format",
+    )
 
 def pytest_configure(config):
     if config.getoption("--custom-report"):
