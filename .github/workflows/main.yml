@@ -23,4 +23,4 @@ jobs:
         pip install pytest
     - name: Run tests with custom output
       run: |
-        PYTHONPATH=./tests pytest --custom-report tests/test_exercise_sheet0.py
+        pytest tests/test_exercise_sheet0.py  
