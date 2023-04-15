@@ -4,19 +4,10 @@ Lehrstuhl für Bioinformatik - Institut für Informatik - *http://www.bioinf.uni
 
 ---
 ## Bioinformatics 2
-###### SS 2021/2022
+###### SS 2023
 ##### Exercise sheet 0: Introduction to GitHub classroom
 ---
     
-### _Exercise 1 - True or False_
 
-**a)** The Earth is flat.
-
-**b)** London is the Capital of Great Britain.
-
-**c)** The 8th season of Game of Thrones was good.
-
-
-### _Exercise 2 - Programming assignment: factorial_
-Implement the **factorial()** function. Assume that the input value will be a positive integer in the interval [1, 100].
-Do not check for the incorrect or unexpected input.
+### _Exercise - Programming assignment: 
+These functions will allow you to check your knowledge of the basic data structions and operations in python.
