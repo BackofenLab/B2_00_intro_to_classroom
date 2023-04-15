@@ -23,4 +23,4 @@ jobs:
         pip install pytest
     - name: Run tests with verbose output
       run: |
-        pytest --verbose test/test_exercise_sheet0.py
+        pytest --verbose tests/test_exercise_sheet0.py
