@@ -78,66 +78,54 @@ test_data = [
     (7, 3),
 ]
 
-def test_arithmetic():
-    @pytest.mark.parametrize("a, b", test_data)
-    def test_add_numbers(a, b):
-        assert add_numbers(a, b) == add_numbers_correct(a, b)
+@pytest.mark.parametrize("a, b", test_data)
+def test_add_numbers(a, b):
+    assert add_numbers(a, b) == add_numbers_correct(a, b)
 
-    @pytest.mark.parametrize("a, b", test_data)
-    def test_subtract_numbers(a, b):
-        assert subtract_numbers(a, b) == subtract_numbers_correct(a, b)
+@pytest.mark.parametrize("a, b", test_data)
+def test_subtract_numbers(a, b):
+    assert subtract_numbers(a, b) == subtract_numbers_correct(a, b)
 
-    @pytest.mark.parametrize("a, b", test_data)
-    def test_multiply_numbers(a, b):
-        assert multiply_numbers(a, b) == multiply_numbers_correct(a, b)
+@pytest.mark.parametrize("a, b", test_data)
+def test_multiply_numbers(a, b):
+    assert multiply_numbers(a, b) == multiply_numbers_correct(a, b)
 
-    @pytest.mark.parametrize("a, b", test_data)
-    def test_divide_numbers(a, b):
-        if b == 0:
-            with pytest.raises(ZeroDivisionError):
-                divide_numbers(a, b)
-        else:
-            assert divide_numbers(a, b) == divide_numbers_correct(a, b)
+@pytest.mark.parametrize("a, b", test_data)
+def test_divide_numbers(a, b):
+    if b == 0:
+        with pytest.raises(ZeroDivisionError):
+            divide_numbers(a, b)
+    else:
+        assert divide_numbers(a, b) == divide_numbers_correct(a, b)
 
-    @pytest.mark.parametrize("a, b", test_data)
-    def test_remainder(a, b):
-        if b == 0:
-            with pytest.raises(ZeroDivisionError):
-                remainder(a, b)
-        else:
-            assert remainder(a, b) == remainder_correct(a, b)
+@pytest.mark.parametrize("a, b", test_data)
+def test_remainder(a, b):
+    if b == 0:
+        with pytest.raises(ZeroDivisionError):
+            remainder(a, b)
+    else:
+        assert remainder(a, b) == remainder_correct(a, b)
 
-    @pytest.mark.parametrize("base, exponent", test_data)
-    def test_exponentiate(base, exponent):
-        assert exponentiate(base, exponent) == exponentiate_correct(base, exponent)
+@pytest.mark.parametrize("base, exponent", test_data)
+def test_exponentiate(base, exponent):
+    assert exponentiate(base, exponent) == exponentiate_correct(base, exponent)
 
-    @pytest.mark.parametrize("numbers", [
-        [1, 2, 3, 4, 5],
-        [0, 0, 0],
-        [10, -10],
-    ])
-    def test_average(numbers):
-        assert average(numbers) == average_correct(numbers)
+@pytest.mark.parametrize("numbers", [
+    [1, 2, 3, 4, 5],
+    [0, 0, 0],
+    [10, -10],
+])
+def test_average(numbers):
+    assert average(numbers) == average_correct(numbers)
 
-    @pytest.mark.parametrize("a, b", test_data)
-    def test_gcd(a, b):
-        assert gcd(a, b) == gcd_correct(a, b)
+@pytest.mark.parametrize("a, b", test_data)
+def test_gcd(a, b):
+    assert gcd(a, b) == gcd_correct(a, b)
 
-    @pytest.mark.parametrize("a, b", test_data)
-    def test_lcm(a, b):
-        assert lcm(a, b) == lcm_correct(a, b)
+@pytest.mark.parametrize("a, b", test_data)
+def test_lcm(a, b):
+    assert lcm(a, b) == lcm_correct(a, b)
 
-    @pytest.mark.parametrize("celsius", [0, 100, -40, 30, 50])
-    def test_celsius_to_fahrenheit(celsius):
-        assert celsius_to_fahrenheit(celsius) == celsius_to_fahrenheit_correct(celsius)
-
-    test_add_numbers()
-    test_subtract_numbers()
-    test_multiply_numbers()
-    test_divide_numbers()
-    test_remainder()
-    test_exponentiate()
-    test_average()
-    test_gcd()
-    test_lcm()
-    test_celsius_to_fahrenheit()
+@pytest.mark.parametrize("celsius", [0, 100, -40, 30, 50])
+def test_celsius_to_fahrenheit(celsius):
+    assert celsius_to_fahrenheit(celsius) == celsius_to_fahrenheit_correct(celsius)
