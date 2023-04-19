@@ -67,7 +67,8 @@ To test your code locally, you can run the provided tests found in the file `tes
 1. Make sure you have Python installed on your computer. You can download it from the [official Python website](https://www.python.org/downloads/).
 2. Install pytest by running the following command: `pip install pytest`
 3. Open a terminal or command prompt and navigate to the folder containing the `tests` folder.
-4. Run the following command to execute the tests: `pytest tests/test_exercise_sheet0.py`
+4. Run the following command to execute the tests: `pytest -rA tests/test_exercise_sheet0.py`
+5. If you are stuck with something you can always check the implementations in the tests/implementations.py
 
 ## Pushing Your Changes
 
