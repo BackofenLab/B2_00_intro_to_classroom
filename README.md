@@ -59,3 +59,20 @@ These tasks focus on dictionary manipulation, such as merging dictionaries, inve
 3. **Count Elements**: Write a function that counts the occurrences of each element in a list and returns the counts as a dictionary. This task helps you practice dictionary manipulation and counting occurrences of elements in a list.
 4. **Filter Dict**: Write a function that filters a dictionary by removing key-value pairs with values less than the specified minimum value. This task helps you practice dictionary manipulation and filtering dictionaries based on values.
 5. **Sort Dict by Values**: Write a function that sorts a dictionary by its values in ascending order. The original dictionary should not be modified. This task helps you practice dictionary manipulation and sorting dictionaries by values.
+
+## Testing Your Code Locally
+
+To test your code locally, you can run the provided tests found in the file `tests/test_exercise_sheet0.py` using pytest. To do this, follow these steps:
+
+1. Make sure you have Python installed on your computer. You can download it from the [official Python website](https://www.python.org/downloads/).
+2. Install pytest by running the following command: `pip install pytest`
+3. Open a terminal or command prompt and navigate to the folder containing the `tests` folder.
+4. Run the following command to execute the tests: `pytest tests/test_exercise_sheet0.py`
+
+## Pushing Your Changes
+
+```
+git add exercise_sheet0.py
+git commit -m "Completed exercise sheet 0 tasks"
+git push origin master
+```
