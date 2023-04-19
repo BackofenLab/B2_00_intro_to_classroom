@@ -23,4 +23,5 @@ jobs:
         pip install pytest
     - name: Run tests with custom output
       run: |
-        pytest tests/test_exercise_sheet0.py  
+        pytest -rA tests/test_exercise_sheet0.py
+ 
