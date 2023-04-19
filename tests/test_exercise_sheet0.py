@@ -1,4 +1,3 @@
-from typing import List, Dict, Any
 import pytest
 
 from exercise_sheet0 import (add_numbers,
@@ -9,7 +8,6 @@ from exercise_sheet0 import (add_numbers,
 
 
 from implementation import (add_numbers_correct,
-                            divide_numbers_correct,
                             remainder_correct,
                             exponentiate_correct,
                             gcd_correct,
